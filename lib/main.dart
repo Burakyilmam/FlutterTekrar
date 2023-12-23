@@ -1,4 +1,5 @@
 import 'package:demo/101/ContainerApp.dart';
+import 'package:demo/101/ScaffoldApp.dart';
 import 'package:demo/101/TextApp.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'DemoProje',
       theme: ThemeData.dark(),
-      home: ContainerApp(),
+      home: ScaffoldApp(),
     );
   }
 }

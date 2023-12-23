@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TextApp extends StatelessWidget {
-  final String musteriAd = 'Haydar';
+  final String musteriAd = 'Burak';
 
   @override
   Widget build(BuildContext context) {

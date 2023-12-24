@@ -1,3 +1,4 @@
+import 'package:demo/101/AppbarApp.dart';
 import 'package:demo/101/ContainerApp.dart';
 import 'package:demo/101/ScaffoldApp.dart';
 import 'package:demo/101/TextApp.dart';
@@ -14,8 +15,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'DemoProje',
-      theme: ThemeData.dark(),
-      home: ButtonApp(),
+      theme: ThemeData.dark().copyWith(
+        appBarTheme: const AppBarTheme(
+          centerTitle: true,
+          backgroundColor: Colors.black,
+        )
+      ),
+      home: const AppbarApp(),
     );
   }
 }

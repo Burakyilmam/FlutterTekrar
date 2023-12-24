@@ -7,7 +7,11 @@ class ButtonApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
+<<<<<<< HEAD
       body: Center(
+=======
+      body: const Center(
+>>>>>>> origin/master
         child: Column(
           children: [
             TextButton(
@@ -34,6 +38,7 @@ class ButtonApp extends StatelessWidget {
                 child: Icon(Icons.delete),
                 //child: const Text('Sil'),
             ),
+<<<<<<< HEAD
             SizedBox(
               width: 100,
               height: 50,
@@ -93,6 +98,12 @@ class ButtonApp extends StatelessWidget {
                     borderRadius: BorderRadius.circular(5.0),
                   ),
               ),
+=======
+            OutlinedButton(
+                onPressed: null,
+                child: Text('Ekle'),
+              // child: Icon(Icons.add)
+>>>>>>> origin/master
             ),
             InkWell(
               // onTap: (){},

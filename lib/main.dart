@@ -1,6 +1,7 @@
 import 'package:demo/101/ContainerApp.dart';
 import 'package:demo/101/ScaffoldApp.dart';
 import 'package:demo/101/TextApp.dart';
+import 'package:demo/101/ButtonApp.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'DemoProje',
       theme: ThemeData.dark(),
-      home: ScaffoldApp(),
+      home: ButtonApp(),
     );
   }
 }

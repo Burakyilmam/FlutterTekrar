@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class TextApp extends StatelessWidget {
   final String musteriAd = 'Burak';
 
+  const TextApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

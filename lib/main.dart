@@ -1,5 +1,6 @@
 import 'package:demo/101/AppbarApp.dart';
 import 'package:demo/101/ContainerApp.dart';
+import 'package:demo/101/IconApp.dart';
 import 'package:demo/101/ScaffoldApp.dart';
 import 'package:demo/101/TextApp.dart';
 import 'package:demo/101/ButtonApp.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.black,
         )
       ),
-      home: const AppbarApp(),
+      home: IconApp(),
     );
   }
 }

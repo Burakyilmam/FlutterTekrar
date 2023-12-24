@@ -7,38 +7,33 @@ class ButtonApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-<<<<<<< HEAD
       body: Center(
-=======
-      body: const Center(
->>>>>>> origin/master
         child: Column(
           children: [
-            TextButton(
+            const TextButton(
                 //onPressed: (){},
                 onPressed: null,
-                child: const Text('Ekle')
+                child: Text('Ekle')
                 //child: Icon(Icons.add),
 
             ),
-            ElevatedButton(
+            const ElevatedButton(
                 // onPressed: (){},
               onPressed: null,
                 // child: const Text('Kaydet')
                 child: Icon(Icons.save),
             ),
-            IconButton(
+            const IconButton(
                 // onPressed: (){},
               onPressed: null,
                 icon: Icon(Icons.save)
             ),
-            FloatingActionButton(
+            const FloatingActionButton(
                 // onPressed: (){},
               onPressed: null,
                 child: Icon(Icons.delete),
                 //child: const Text('Sil'),
             ),
-<<<<<<< HEAD
             SizedBox(
               width: 100,
               height: 50,
@@ -48,7 +43,7 @@ class ButtonApp extends StatelessWidget {
                     print("Tıklandı");
                   },
                   // child: Text('Ekle'),
-                  child: Icon(Icons.add),
+                  child: const Icon(Icons.add),
                 style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.resolveWith((states)
                     {
@@ -65,10 +60,10 @@ class ButtonApp extends StatelessWidget {
                   {
                     if(states.contains(MaterialState.pressed))
                     {
-                      return EdgeInsets.all(10.0);
+                      return const EdgeInsets.all(10.0);
                     }
                     else{
-                      return EdgeInsets.all(0.0);
+                      return const EdgeInsets.all(0.0);
                     }
                   }
                   ),
@@ -88,30 +83,29 @@ class ButtonApp extends StatelessWidget {
             ),
             OutlinedButton.icon(
                 onPressed: (){},
-                icon: Icon(Icons.add),
-                label: Text('Ekle'),
+                icon: const Icon(Icons.add),
+                label: const Text('Ekle'),
                 style: OutlinedButton.styleFrom(
                   backgroundColor: Colors.blue,
-                  padding: EdgeInsets.all(10),
+                  padding: const EdgeInsets.all(10),
                   foregroundColor: Colors.black,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(5.0),
                   ),
               ),
-=======
-            OutlinedButton(
+            ),
+            const OutlinedButton(
                 onPressed: null,
                 child: Text('Ekle'),
               // child: Icon(Icons.add)
->>>>>>> origin/master
             ),
-            InkWell(
+            const InkWell(
               // onTap: (){},
               onTap: null,
               child: Text(
                   'Ekle',
                   style: TextStyle(
-                    color: Colors.red,
+                    color: Colors.orange,
                   )
               ),
               //child: const Icon(Icons.add)

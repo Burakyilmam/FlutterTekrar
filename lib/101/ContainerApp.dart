@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class ContainerApp extends StatelessWidget{
+  const ContainerApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

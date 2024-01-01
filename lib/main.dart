@@ -1,4 +1,4 @@
-import 'package:demo/101/CounterApp.dart';
+import 'package:demo/101/PageviewApp.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.black,
         )
       ),
-      home: CounterApp(),
+      home: PageviewApp(),
     );
   }
 }
